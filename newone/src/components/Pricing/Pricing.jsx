@@ -16,7 +16,7 @@ const Pricing = () => {
                         <img className='text-center mx-auto mb-8' src={icon8} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Personal</h2>
                         <h3 className='font-bold font-secondery text-[46px] mb-[14px] mt-[2px]  leading-[58px] group-hover:text-white text-head text-center mx-auto'>$10/mth</h3>
-                        <p className=' font-primary leading[32px] font-medium text-pera text-center m-auto group-hover:text-white'>OAnnual pricing (save 20%)</p>
+                        <p className=' font-primary leading[32px] font-medium text-pera text-center m-auto group-hover:text-white'>OAnnual pricing (save 30%)</p>
                         <ul className='flex flex-col gap-[26px] mb-12 mt-10 group-hover:text-white'>
                             <li className='flex gap-[22px]'>
                                 <img src={chk} alt="" />
