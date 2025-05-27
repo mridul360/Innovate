@@ -16,7 +16,7 @@ const Banner = () => {
             <a href='' className='font-primary text-lg font-medium px-7 py-[15px] rounded-[6px] bg-primary absolute top-[4px] right-[10px] md:right-[470px] '>Try For Free</a>
         </div>
         </div>
-         <div className='absolute' >
+         <div className='absolute ml-[-40px] md:ml-0' >
       <img  src= {laptop} alt="#laptop" />
     </div>
       </Container>
