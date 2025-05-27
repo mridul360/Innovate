@@ -6,7 +6,7 @@ const Navbar = () => {
     return(
         <div className='pt-8'>
             <Container>
-            <div className='flex justify-between items-center'>
+            <div className='md:flex justify-between items-center'>
                 <div>
                     <img src= {logo} alt="#logo" />
                 </div>
