@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+  --font-secondery: "Chivo", sans-serif ; 
+  --font-primary: "DM Sans", sans-serif ; 
+  --color-primary: #43E7DF;
+  --color-secondery: #3639A4;
+  --color-head: #2C2643;
+  --color-pera: #645E76;
+}
