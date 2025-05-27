@@ -6,7 +6,7 @@ const Banner = () => {
   return (
 <div>
       <section className=''>
-          <div className='py-[118px] relative '>
+          <div className='md:py-[118px] relative '>
       <Container>
         <div className='text-center mb-[98px]'>
         <h1 className='font-primary text-[30px] md:text-[56px] md:w-[796px] m-auto  font-bold  mb-4 leading[64px]'>Get your work done with Management Tool</h1>

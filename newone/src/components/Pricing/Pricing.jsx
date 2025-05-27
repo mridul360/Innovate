@@ -39,7 +39,7 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                       <button className='font-primary text-lg font-medium px-20 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black cursor-pointer text-white '>Purchase Now</button>
+                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
                     </div>
                     <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px]'>
                         <img className='text-center mx-auto mb-8' src={icon9} alt="" />
@@ -68,7 +68,7 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                        <button className='font-primary text-lg font-medium px-20 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black cursor-pointer  text-white '>Purchase Now</button>
+                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
                     </div>
                     <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px]'>
                         <img className='text-center mx-auto mb-8' src={icon6} alt="" />
@@ -97,7 +97,7 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                        <button className='font-primary text-lg font-medium px-20 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black cursor-pointer  text-white '>Purchase Now</button>
+                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
                     </div>
                    </div>
         </Container>
