@@ -9,13 +9,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Moree = () => {
     return (
-        <div className='pt-[140px] pb-[140px]'>
+        <div className='md:pt-[140px] pb-[80px] md:pb-[140px]'>
             <Container>
                 <div className='text-center'>
                     <h2 className='text-[#FF7364]'>Our Services</h2>
-                    <h3 className='font-bold font-secondery text-[46px] w-[553px] leading-[58px] text-head mx-auto'>How It Works</h3>
+                    <h3 className='font-bold font-secondery md:text-[46px] text-2xl md:w-[553px] leading-[58px] text-head mx-auto'>How It Works</h3>
                 </div>
-                <div className='my-20 flex gap-3'>
+                <div className='md:my-20 my-10 md:flex md:gap-3'>
                     <div className='inset-shadow-xs bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
                         <img src={grp1} alt="" />
                          <h3 className='font-bold font-secondery text-head text-2xl w-[300px] mt-[26px] group-hover:text-white duration-300 ease-in '>Plan Product Roadmap</h3>
@@ -27,7 +27,7 @@ const Moree = () => {
                             </div>
                          </div>
                     </div>
-                    <div className='inset-shadow-xs bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
+                    <div className='inset-shadow-xs mt-5 md:mt-0 bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
                         <img src={grp2} alt="" />
                          <h3 className='font-bold font-secondery text-head text-2xl w-[300px] mt-[26px] group-hover:text-white '>Assign Any Work</h3>
                          <p className='text-pera font-primary text-[18px] mt-5 mb-11 w-[258px] group-hover:text-white'>Work assignment or job assignment is allocating work to work centers or appropriate </p>
@@ -36,7 +36,7 @@ const Moree = () => {
                             <FaArrowRightLong  className= 'font-bold text-secondery mt-1 group-hover:text-white duration-300 ease-in' />
                          </div>
                     </div>
-                    <div className='inset-shadow-xs bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
+                    <div className='inset-shadow-xs mt-5 md:mt-0 bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
                         <img src={grp3} alt="" />
                          <h3 className='font-bold font-secondery text-head text-2xl w-[300px] mt-[26px] group-hover:text-white '>Monitor Work Progress</h3>
                          <p className='text-pera font-primary text-[18px] mt-5 mb-6 w-[258px] group-hover:text-white'>Monitor Work ProgressKeeping records and monitoring activities helps people see progress </p>
@@ -45,7 +45,7 @@ const Moree = () => {
                             <FaArrowRightLong  className= 'font-bold text-secondery mt-1 group-hover:text-white duration-300 ease-in' />
                          </div>
                     </div>
-                    <div className='inset-shadow-xs bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
+                    <div className='inset-shadow-xs mt-5 md:mt-0 bg-[#DCE7FE] p-[25px] rounded-[20px] group hover:bg-secondery duration-300 ease-in'>
                         <img src={grp4} alt="" />
                          <h3 className='font-bold font-secondery text-head text-2xl w-[300px] mt-[26px] group-hover:text-white '>Pertect Intergration</h3>
                          <p className='text-pera font-primary text-[18px] mt-5 mb-6 w-[258px] group-hover:text-white'>App integration, in a general sense, is the process of resources or capabilities from one application </p>
