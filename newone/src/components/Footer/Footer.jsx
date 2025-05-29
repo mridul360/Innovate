@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from '../Layout/container'
-import cta from '../../assets/cta.png'
 import { IoIosSend } from "react-icons/io";
 import logo2 from "../../assets/logo2.png";
 
@@ -10,41 +9,41 @@ const Footer = () => {
       <Container>
         <div className='relative'>
                     
-                    <div className='flex gap-[30px] justify-between md:pt-[291px]'>
+                    <div className='flex gap-[30px] justify-between pt-[291px]'>
                         <div>
                             <img src={logo2} alt="#logo2" />
-                            <p className='mt-[26px] mb-6 font-secondary text-pera text-[16px] leading-7 max-w-[263px]'>Build a modern and creative website with Innovate.</p>
+                            <p className='mt-[26px] mb-6 font-secondary text-pera text-[16px] leading-7 w-auto md:max-w-[263px]'>Build a modern and creative website with Innovate.</p>
                             <div className='flex gap-2'>
                                 <img src={logo2} alt="#gicon" />
                             </div>
                         </div>
-                        <div className='flex gap-[85px] mb-[86px] items-start'>
+                        <div className='flex md:gap-[85px] mb-[86px] items-start'>
                           <div>
-                            <h4 className='font-secondary text-pera text-[18px] leading-8 font-medium mb-[18px]'>Product</h4>
+                            <h4 className='font-secondary text-pera text-[15px] md:text-[18px] leading-8 font-medium mb-[18px]'>Product</h4>
                             <ul className='flex flex-col gap-[12px]'>
-                                <li className='font-secondary text-[16px] leading-[26px] '>Landingpages</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Pricing</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Benefits</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Features</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px] '>Landingpages</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Pricing</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Benefits</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Features</li>
                             </ul>
                           </div>
                             <div>
-                              <h4 className='font-secondary text-pera text-[18px] leading-8 font-medium mb-[18px]'>Company</h4>
+                              <h4 className='font-secondary text-pera  text-[15px] md:text-[18px] leading-8 font-medium mb-[18px]'>Company</h4>
                               <ul className='flex flex-col gap-[12px]'>
-                                <li className='font-secondary text-[16px] leading-[26px] '>About</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Privacy Policy</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Terms & Conditions</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Partners</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Contact</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px] '>About</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Privacy Policy</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Terms & Conditions</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Partners</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Contact</li>
                             </ul>
                             </div>
                             <div>
-                              <h4 className='font-secondary text-pera text-[18px] leading-8 font-medium mb-[18px]'>Resources</h4>
+                              <h4 className='font-secondary text-pera  text-[15px] md:text-[18px] leading-8 font-medium mb-[18px]'>Resources</h4>
                               <ul className='flex flex-col gap-[12px]'>
-                                <li className='font-secondary text-[16px] leading-[26px] '>Guides and resources</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Blog</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Tools</li>
-                                <li className='font-secondary text-[16px] leading-[26px]'>Support</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px] '>Guides and resources</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Blog</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Tools</li>
+                                <li className='font-secondary text-[12px] md:text-[16px] md:leading-[26px]'>Support</li>
                             </ul>
                             </div>
                         </div>
