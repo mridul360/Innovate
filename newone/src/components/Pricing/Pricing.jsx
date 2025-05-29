@@ -7,11 +7,11 @@ import chk from '../../assets/chk.png'
 
 const Pricing = () => {
   return (
-    <div className='pb-[160px]'>
+    <div className='md:pb-[160px]'>
         <Container >
                    <h3 className='font-bold font-secondery text-[46px]  leading-[58px] text-head text-center m-auto'>Pricing Designed To Fit Your Business</h3>
                    <p className='font-bold font-secondery text-[24px] text-secondery text-center mt-[39px] mb-[77px] '>Monthly</p>
-                   <div className='flex gap-[30px]'>
+                   <div className='md:flex gap-[30px]'>
                     <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px]'>
                         <img className='text-center mx-auto mb-8' src={icon8} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Personal</h2>
@@ -39,9 +39,9 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
+                        <button href='' className='font-primary text-lg font-medium px-13  md:px-[92px] py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</button>
                     </div>
-                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px]'>
+                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] mt-5'>
                         <img className='text-center mx-auto mb-8' src={icon9} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Team</h2>
                         <h3 className='font-bold font-secondery text-[46px] mb-[14px] mt-[2px]  leading-[58px] group-hover:text-white text-head text-center mx-auto'>$25/mth</h3>
@@ -68,9 +68,9 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
+                        <button href='' className='font-primary text-lg font-medium px-13  md:px-[92px] py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</button>
                     </div>
-                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px]'>
+                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] mt-5'>
                         <img className='text-center mx-auto mb-8' src={icon6} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Enterprise</h2>
                         <h3 className='font-bold font-secondery text-[46px] mb-[14px] mt-[2px]  leading-[58px] group-hover:text-white text-head text-center mx-auto'>$50/mth</h3>
@@ -97,7 +97,7 @@ const Pricing = () => {
                                 <p>Calendar View</p>
                             </li>
                         </ul>
-                        <a href='' className='font-primary text-lg font-medium px-26 py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</a>
+                        <button href='' className='font-primary text-lg font-medium px-13  md:px-[92px] py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</button>
                     </div>
                    </div>
         </Container>
