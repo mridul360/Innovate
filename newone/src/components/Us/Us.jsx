@@ -8,11 +8,11 @@ const Us = () => {
     return (
         <div className='bg-[#F4FAFA] py-[200px]'>
             <Container>
-                <div className='flex justify-between '>
+                <div className='md:flex justify-between '>
                     <div>
-                        <h3 className='font-bold font-secondery text-[46px] w-[553px] leading-[58px] text-head '>What they are talking
+                        <h3 className='font-bold font-secondery text-2xl md:text-[46px] md:w-[553px] md:leading-[58px] text-head '>What they are talking
                             about us?</h3>
-                            <p className='text-pera font-primary text-[18px] mt-5 mb-11 w-[503px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                            <p className='text-pera font-primary text-[18px] mt-5 mb-11 md:w-[503px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                             <div className='mt-15'>
                             <a href='' className='font-primary text-lg font-medium px-7 py-[15px] rounded-[6px] bg-secondery text-white'>Get AStarted</a>
                         </div>
