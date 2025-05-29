@@ -41,7 +41,7 @@ const Pricing = () => {
                         </ul>
                         <button href='' className='font-primary text-lg font-medium px-13  md:px-[92px] py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</button>
                     </div>
-                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] mt-5'>
+                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] md:mt-0 mt-5'>
                         <img className='text-center mx-auto mb-8' src={icon9} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Team</h2>
                         <h3 className='font-bold font-secondery text-[46px] mb-[14px] mt-[2px]  leading-[58px] group-hover:text-white text-head text-center mx-auto'>$25/mth</h3>
@@ -70,7 +70,7 @@ const Pricing = () => {
                         </ul>
                         <button href='' className='font-primary text-lg font-medium px-13  md:px-[92px] py-[15px] rounded-[6px] bg-secondery group-hover:bg-[#43E7DF] group-hover:text-black  text-white '>Purchase Now</button>
                     </div>
-                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] mt-5'>
+                    <div className='py-10 px-15 bg-[#DCE7FE] group hover:bg-secondery duration-500 rounded-[20px] md:mt-0 mt-5'>
                         <img className='text-center mx-auto mb-8' src={icon6} alt="" />
                         <h2 className='font-bold font-secondery text-[24px] text-secondery text-center group-hover:text-[#43E7DF]'>Enterprise</h2>
                         <h3 className='font-bold font-secondery text-[46px] mb-[14px] mt-[2px]  leading-[58px] group-hover:text-white text-head text-center mx-auto'>$50/mth</h3>
