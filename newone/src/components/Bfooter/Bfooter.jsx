@@ -5,7 +5,7 @@ import cta from '../../assets/cta.png'
 
 const Bfooter = () => {
     return (
-        <div className='p-40 relative'>
+        <div className='md:p-40 p-20 relative'>
             <Container>
                 {/* <div className=''>
                     <img src={cta} alt="" className='absolute top-[165px] left-[220px]' />
@@ -16,11 +16,11 @@ const Bfooter = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className='absolute top-[149px] left-0 w-full'>
-                        <div className='py-[100px] px-[402px] rounded-[40px] bg-no-repeat  bg-center'
+                <div className='top-0 absolute md:top-[149px] left-0 w-full'>
+                        <div className='py-[100px] md:px-[402px] rounded-[40px] bg-no-repeat  bg-center'
                         style={{ backgroundImage: `url(${cta})` }}>
-                        <div className='flex justify-between items-center'>
-                            <h1 className='max-w-[577px] font-primary font-bold text-white text-[44px]'>Don’t find the answer? contact us for any query.</h1>
+                        <div className='md:flex justify-between items-center'>
+                            <h1 className='md:max-w-[577px] font-primary font-bold text-white text-[44px] mb-5'>Don’t find the answer? contact us for any query.</h1>
                             <div><a href='' className='font-primary text-lg font-medium px-7 py-[15px] rounded-[6px] bg-primary cursor-pointer'>Register</a></div>
                         </div>
                     </div>

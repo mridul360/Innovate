@@ -10,7 +10,7 @@ const Footer = () => {
       <Container>
         <div className='relative'>
                     
-                    <div className='flex justify-between pt-[291px]'>
+                    <div className='flex gap-[30px] justify-between md:pt-[291px]'>
                         <div>
                             <img src={logo2} alt="#logo2" />
                             <p className='mt-[26px] mb-6 font-secondary text-pera text-[16px] leading-7 max-w-[263px]'>Build a modern and creative website with Innovate.</p>
